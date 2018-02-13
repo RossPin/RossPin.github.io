@@ -1,9 +1,11 @@
 body {
-    background-color: blanchedalmond;
+    background: rgba(79, 71, 192, 0.493) url('brush.png') repeat;
 }
 
 h1 {
-    background-color: lightslategray;
+    background: grey url('5015.png') repeat;
+    font-size: 72px;
+    font-weight: bold;
     padding: 10px 30px;
     margin: 30px 10%;
     text-align: center;
@@ -17,7 +19,8 @@ ul {
 }
 
 ul li {
-    background-color: azure;
+    background-color: lightslategray;
+    color: #444;
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
@@ -25,11 +28,16 @@ ul li {
     margin: 5px;
 }
 
+ul li a{
+    color: black;
+    font-weight: 900;
+}
+
 h3 {
-    margin: 10px 10%;
+    margin: 10px 10px;
 }
 p {
-    margin: 10px 10%;
+    margin: 10px 10px;
 }
 
 .coverImg {
@@ -38,6 +46,14 @@ p {
     margin: 40px 10%;
     border: 2px outset black;
     border-radius: 10px;
+}
+
+.content {
+    background-color: lightslategray;
+    margin: 40px 10%;
+    border: 2px outset black;
+    border-radius: 10px;
+
 }
 
 #footnote {
