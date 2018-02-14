@@ -1,9 +1,9 @@
 body {
-    background: rgba(79, 71, 192, 0.493) url('brush.png') repeat;
+    background: rgba(79, 71, 192, 0.493) url('../images/brush.png') repeat;
 }
 
 h1 {
-    background: grey url('5015.png') repeat;
+    background: grey url('../images/5015.png') repeat;
     font-size: 72px;
     font-weight: bold;
     padding: 10px 30px;
@@ -14,11 +14,11 @@ h1 {
   
 }
 
-ul {
+nav ul {
     margin: 10px 10%;
 }
 
-ul li {
+nav ul li {
     background-color: lightslategray;
     color: #444;
     display: inline-block;
@@ -28,7 +28,7 @@ ul li {
     margin: 5px;
 }
 
-ul li a{
+nav ul li a{
     color: black;
     font-weight: 900;
 }
@@ -54,6 +54,10 @@ p {
     border: 2px outset black;
     border-radius: 10px;
 
+}
+
+.diagram {
+     margin: 10px;
 }
 
 #footnote {
