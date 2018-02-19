@@ -1,0 +1,51 @@
+* {
+  border: 1px solid red !important; 
+}
+
+
+.titleBlock {
+  background-color: aqua;
+ }
+
+.emptyrow {
+  height: 4em;
+}
+
+.heading {  
+  text-align: center; 
+  margin-bottom: 0; 
+
+}
+
+.mobileButton {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0; 
+}
+
+.profilePic {
+  width: 40%;
+  margin: 5px 30%;
+}
+
+.hiddenMobile {
+ display: none;
+}
+
+.visibleMobile {
+  display: initial;
+}
+
+@media (min-width: 550px){
+  .visibleMobile {
+    display: none;
+  }
+  .hiddenMobile {
+    display: initial;
+   }
+   .profilePic {
+    width: 90%;
+    max-width: 120px;
+    margin: 5%;
+  }
+}
