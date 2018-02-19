@@ -1,23 +1,30 @@
-* {
-  border: 1px solid red !important; 
+body {
+  background: white url('../images/brush50min.png') repeat;
 }
 
 
-.titleBlock {
-  background-color: aqua;
+.titleBlock, nav, .content {
+  background-color: rgb(175, 175, 180);
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 5px;
  }
 
-.emptyrow {
-  height: 4em;
-}
-
-.heading {  
+h1 {  
   text-align: center; 
-  margin-bottom: 0; 
-
+  min-height: 2em;
+  margin-bottom: 0;
 }
 
-.mobileButton {
+nav li {
+  color: #777;
+}
+
+nav li a {
+  color: black;
+}
+
+.homeButton {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 0; 
@@ -26,12 +33,24 @@
 .profilePic {
   width: 40%;
   margin: 5px 30%;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
+footer {
+  background-color: white;
+  text-align: center;
+  padding-top: 2em;
+  margin-top: 2em;
+  width: 100%;
+}
+
+/*makes element hidden on mobile screen*/
 .hiddenMobile {
  display: none;
 }
 
+/*makes element visible only on mobile screen*/
 .visibleMobile {
   display: initial;
 }
@@ -44,8 +63,16 @@
     display: initial;
    }
    .profilePic {
-    width: 90%;
-    max-width: 120px;
-    margin: 5%;
+    width: 100%;
+    margin: 0;
+    max-width: 120px;    
   }
+  .row {
+    margin-top: 4em;
+  }
+
+  .container {
+    max-width: 1160px;
+  }
+
 }
