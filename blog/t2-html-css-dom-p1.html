@@ -1,55 +1,63 @@
 <!DOCTYPE html>
-<html lang=en> 
-<head>
-  <!-- Setup page title and page styling -->
-  <title>Blog: Technical 1</title>
-  <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-</head>
+<html>
+  <head>
+    <title>Blog: Technical 1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    
+  </head>
+  <body>
+    <div class="container">      
+      <div class="row titleBlock">
+        <div class="twelve columns">            
+          <h1>Technical Blog Part 1</h1>
+        </div>        
+      </div>      
+      <div class="row">
+        <nav class="four columns hiddenMobile">
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="c1-reflection-blog.html">Cultural Reflection Blog</a></li>
+            <li><a href="c1-time-and-habits-blog.html">Time and Habits Blog</a></li>
+            <li>Technical Blog Part 1</li>
+            <li><a href="t2-html-css-dom-p2.html">Technical Blog Part 2</a></li>
+            <li><a href="c2-emotional-intelligence.html">Emotional Intelligence Cultural Blog</a></li>
+          </ul>
+        </nav>
+        <div class="four columns visibleMobile homeButton">
+          <a class="button" href="../index.html">Home</a>
+        </div>
+        <div class="eight columns content">
+          <h4>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h4>
+          <p>
+            If you think of a building a house. The HTML is the builder, they create the structure. Put up the walls, frame the windows and doors, and install the fixtures. <br/>
+            The CSS is the architect, they specify how the house will look. Where walls doors and windows will go, the shape of the house, the colour, the type of fixtures to use. <br/>
+            The DOM is the building regulations. It specifies how things must be built, base rules on how things can interact with each other. It ties the builder and architect together in how things are to be done.
+          </p>
+          <p>      
+            Unlike a house, a website is continuously being rebuilt as the browser refreshes. Changes can be made to the DOM which will change the website as it’s rebuilt.
+          </p>
+          <h4>What is meant by boxifying design?</h4>
+          <p>
+            Boxifying design is a technique for developing a website from a concept. The concept is broken up into boxes making it easier to design the components of the website and how they interact with each other. 
+          </p>
+          <h4>What is the box model?</h4>
+          <p>
+            The box model is the make-up of every element used on a webpage. From the centre out the box consists of; Content, Padding, Border, and Margin.
+          </p> 
+          <img class="u-max-full-width" src="../images/BoxModel.png" alt="Box Model Diagram">
+          <ul>
+            <li>Content: The content of the element.</li>
+            <li>Padding: The space between the content and the edge of the box.</li>
+            <li>Border: The edge of the box.</li>
+            <li>Margin: The area around the box that other elements aren’t allowed to occupy.</li>
+          </ul>     
+        </div>
+      </div>
 
-<body>
-    <!-- Main webpage content -->
-  <h1>Technical Blog Part 1</h1>
-
-  <nav>
-    <ul>
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="c1-reflection-blog.html">Cultural Reflection Blog</a></li>
-        <li><a href="c1-time-and-habits-blog.html">Time and Habits Blog</a></li>
-        <li>Technical Blog Part 1</li>
-        <li><a href="t2-html-css-dom-p2.html">Technical Blog Part 2</a></li>
-        <li><a href="c2-emotional-intelligence.html">Emotional Intelligence Cultural Blog</a></li>
-    </ul>
-  </nav>
-
-  <div class="content">
-    <h3>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h3>
-    <p>
-      If you think of a building a house. The HTML is the builder, they create the structure. Put up the walls, frame the windows and doors, and install the fixtures. <br/>
-      The CSS is the architect, they specify how the house will look. Where walls doors and windows will go, the shape of the house, the colour, the type of fixtures to use. <br/>
-      The DOM is the building regulations. It specifies how things must be built, base rules on how things can interact with each other. It ties the builder and architect together in how things are to be done.
-    </p>
-    <p>      
-      Unlike a house, a website is continuously being rebuilt as the browser refreshes. Changes can be made to the DOM which will change the website as it’s rebuilt.
-    </p>
-    <h3>What is meant by boxifying design?</h3>
-    <p>
-      Boxifying design is a technique for developing a website from a concept. The concept is broken up into boxes making it easier to design the components of the website and how they interact with each other. 
-    </p>
-    <h3>What is the box model?</h3>
-    <p>
-      The box model is the make-up of every element used on a webpage. From the centre out the box consists of; Content, Padding, Border, and Margin.
-    </p> 
-    <img class="diagram" src="../images/BoxModel.png" alt="Box Model Diagram">
-    <ul>
-      <li>Content: The content of the element.</li>
-      <li>Padding: The space between the content and the edge of the box.</li>
-      <li>Border: The edge of the box.</li>
-      <li>Margin: The area around the box that other elements aren’t allowed to occupy.</li>
-    </ul>     
-  </div> 
-  
-  <!--<div id="footnote">Page developed by Ross</div>-->
-
-</body>
+    </div>  
+  </body>
+  <footer>Page developed by Ross Pinfold @ EDA</footer>
 </html>

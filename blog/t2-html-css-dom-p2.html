@@ -1,48 +1,56 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-  <!-- Setup page title and page styling -->
-  <title>Blog: Technical 2</title>
-  <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-    <!-- Main webpage content -->
-    <h1>Technical Blog Part 2</h1>
-
-    <nav>
-        <ul>
+<html>
+  <head>
+    <title>Blog: Technical 2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    
+  </head>
+  <body>
+    <div class="container">     
+      <div class="row titleBlock">
+        <div class="twelve columns">            
+          <h1>Technical Blog Part 2</h1>
+        </div>        
+      </div>      
+      <div class="row">
+        <nav class="four columns hiddenMobile">
+          <ul>
             <li><a href="../index.html">HOME</a></li>
             <li><a href="c1-reflection-blog.html">Cultural Reflection Blog</a></li>
             <li><a href="c1-time-and-habits-blog.html">Time and Habits Blog</a></li>
             <li><a href="t2-html-css-dom-p1.html">Technical Blog Part 1</a></li>
             <li>Technical Blog Part 2</li>
             <li><a href="c2-emotional-intelligence.html">Emotional Intelligence Cultural Blog</a></li>
-        </ul>
-    </nav>
+          </ul>
+        </nav>
+        <div class="four columns visibleMobile homeButton">
+          <a class="button" href="../index.html">Home</a>
+        </div>
+        <div class="eight columns content">
+          <h4>What is grid based design?</h4>
+          <p>
+              Grid based design is dividing a webpage into grids to place elements in desired place. A grid system is created with rows and columns, elements are nested inside these rows and columns.
+          </p>
 
-    <div class="content">
-        <h3>What is grid based design?</h3>
-        <p>
-            Grid based design is dividing a webpage into grids to place elements in desired place. A grid system is created with rows and columns, elements are nested inside these rows and columns.
-        </p>
+          <h4>Whats all the hype about responsive webpages?</h4>
+          <p>
+              These days the web is viewed on many different devices; Mobiles, tablets, laptops, desktops. These all have different screen resolutions. If a website is designed on a particular resolution screen, it may look fantastic on that screen but when it is opened on a different screen everything can be messed up. This can lead to a bad user experience.
+          </p>
+          <p>
+              Responsive design overcomes this problem, by designing the website to respond to the particular screen it’s being displayed on. Responsive design can be implemented in many ways often in combination. This could be scaling an element with the screen size, altering the grid to change how many elements are displayed in a row, or not showing some less important elements altogether.
+          </p>
+          
+          <h4>What is semantic structure?</h4>
+          <p>
+              Semantic structure is the naming of elements which are read by both the browser and the developer. They are used to identify and target specific elements. Semantic structure includes; tags, classes, ids. HTML5 includes a series of new semantic tags to make structure easier. 
+          </p>         
+        </div>
+      </div>
 
-        <h3>Whats all the hype about responsive webpages?</h3>
-        <p>
-            These days the web is viewed on many different devices; Mobiles, tablets, laptops, desktops. These all have different screen resolutions. If a website is designed on a particular resolution screen, it may look fantastic on that screen but when it is opened on a different screen everything can be messed up. This can lead to a bad user experience.
-        </p>
-        <p>
-            Responsive design overcomes this problem, by designing the website to respond to the particular screen it’s being displayed on. Responsive design can be implemented in many ways often in combination. This could be scaling an element with the screen size, altering the grid to change how many elements are displayed in a row, or not showing some less important elements altogether.
-        </p>
-        
-        <h3>What is semantic structure?</h3>
-        <p>
-            Semantic structure is the naming of elements which are read by both the browser and the developer. They are used to identify and target specific elements. Semantic structure includes; tags, classes, ids. HTML5 includes a series of new semantic tags to make structure easier. 
-        </p>         
-    </div> 
-
-    <!--<div id="footnote">Page developed by Ross</div>-->
-
-</body>
+    </div>  
+  </body>
+  <footer>Page developed by Ross Pinfold @ EDA</footer>
 </html>
