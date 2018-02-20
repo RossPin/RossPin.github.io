@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog: Technical 3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    
+  </head>
+  <body>
+    <div class="container">     
+      <div class="row titleBlock">
+        <div class="twelve columns">            
+          <h1>Technical Blog: Design to Web</h1>
+        </div>        
+      </div>      
+      <div class="row">
+        <nav class="four columns hiddenMobile">
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              BLOGS
+              <ul>
+                <li><a href="c1-reflection-blog.html">Cultural Reflection blog</a></li>
+                <li><a href="c1-time-and-habits-blog.html">Time and Habits blog</a></li>
+                <li><a href="t2-html-css-dom-p1.html">Technical Blog Part 1</a></li>
+                <li><a href="t2-html-css-dom-p2.html">Technical Blog Part 2</a></li>
+                <li><a href="c2-emotional-intelligence.html">Emotional Intelligence Cultural Blog</a></li>
+                <li class="selected">Technical Blog: Design to Web</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="four columns visibleMobile homeButton">
+          <a class="button" href="../index.html">Home</a>
+        </div>
+        <div class="eight columns content">
+          <h4>What a responsive site is, and why responsiveness is important.</h4>
+          <p>
+            A responsive site is one that will display differently depending on what device you are looking at the website from. This is important because a website needs to look good and display the necessary information whether you are using your phone, desktop or any other device.
+          </p>
+          <h4>What mobile first design is, and why it's important.</h4>
+          <p>
+            Mobile first design is designing website primarily to work on mobile phone, then adapting it to display differently on larger devices. This is a good way to design because it is a lot easier to add more stuff and features to a larger screen than it is to try and squeeze everything from large screen into a mobile screen.
+          </p>
+          <h4>What frameworks are, and their pros and cons.</h4>
+          <p>
+            Frameworks are pre written groups of general code. They can be added to your work so you can use code inside them.
+          </p>
+          <p>
+            Pros of frameworks are its easier and faster to use code that has already been written. This saves reinventing the wheel and you get to borrow lots of clever tricks from experienced developers.
+          </p>
+          <p>
+            Cons of frameworks can be that you are loading lots of unused code from the framework, slowing loading times. Sometimes things in the framework may not be exactly as you want and you need to write code to override it. You don’t learn as much about how things work using frameworks than if you built it yourself.
+          </p>
+          <h4>What a wireframe is and why we use it.</h4>
+          <p>
+            Wireframe is the use of a grid of columns and rows used to place elements where we want on a webpage. We use this because it is easier and more versatile than placing elements in relation to each other. A wireframe structure is very good at responding to different screen sizes.
+          </p>
+          <h6>My wireframes for mobile index and blog pages.</h6>
+          <img class="halfWide" src="../images/wireframe-index-page-mobile.jpg" alt="Mobile Index Wireframe">
+          <img class="halfWide" src="../images/wireframe-blog-page-mobile.jpg" alt="Mobile Blog Wireframe">
+          <h6>My wireframes for desktop index and blog pages.</h6>
+          <img class="u-max-full-width" src="../images/wireframe-index-page-desktop.jpg" alt="Desktop Index Wireframe">
+          <img class="u-max-full-width" src="../images/wireframe-blog-page-desktop.jpg" alt="Desktop Blog Wireframe">
+          <h4>The aspects of your wireframes you found difficult to implement, and why.</h4>
+          <p>
+            The wire frames didn’t seem to be working as i thought they would when I first started shaping them. I added borders around everything and this made it much easier to see what was going on. After a lot of playing around I had everything in the right place and formatting as I wanted. Once the borders were removed it all went wrong. Worked out that blank rows I had been adding between things for spacing were only displaying because of the borders. I had a play around to get them to display but the code got quite messy so I removed the blank rows and used margins instead.
+          </p>
+          <p>
+            After everything looked right and tested fine using display emulators I made the site live and checked it on my phone. And the webpage displayed in desktop view. After more playing around and more reading, I found that some phones will display a webpage using their full resolution rather than the scaled CSS resolution unless there is a ‘Viewport’ meta tag in the head of the HTML. I added
+          </p>
+        </div>
+      </div>
+
+    </div>  
+  </body>
+  <footer>Page developed by Ross Pinfold @ EDA</footer>
+</html>

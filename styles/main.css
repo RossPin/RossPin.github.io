@@ -42,6 +42,11 @@ nav li a {
   border-radius: 5px;
 }
 
+.halfWide {
+  max-width: 49%;
+  box-sizing: border-box;
+}
+
 footer {
   background-color: white;
   text-align: center;
