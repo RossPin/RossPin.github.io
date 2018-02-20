@@ -30,6 +30,11 @@ nav li a {
   margin-bottom: 0; 
 }
 
+.homeButton .button {
+  background-color: rgb(175, 175, 180);
+  border: 1px solid black;
+}
+
 .profilePic {
   width: 40%;
   margin: 5px 30%;
