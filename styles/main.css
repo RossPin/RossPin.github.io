@@ -20,7 +20,7 @@ nav li {
   color: #777;
 }
 
-nav li a {
+nav li a, {
   color: black;
 }
 
@@ -40,9 +40,16 @@ nav li a {
 footer {
   background-color: white;
   text-align: center;
-  padding-top: 2em;
-  margin-top: 2em;
+  height: 25px;
+  padding-top: 25px;
+  margin-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
   width: 100%;
+}
+
+.container {  
+  min-height: calc(100vh - 100px);
 }
 
 /*makes element hidden on mobile screen*/
@@ -68,11 +75,12 @@ footer {
     max-width: 120px;    
   }
   .row {
-    margin-top: 4em;
-  }
+    margin-top: 60px;
+  } 
 
   .container {
     max-width: 1160px;
+    min-height: calc(100vh - 160px);
   }
 
 }
