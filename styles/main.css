@@ -16,11 +16,11 @@ h1 {
   margin-bottom: 0;
 }
 
-nav li {
+.selected{
   color: #777;
 }
 
-nav li a, {
+nav li a {
   color: black;
 }
 
