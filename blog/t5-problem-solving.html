@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog: Problem Solving</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <script src="../script.js"></script>
+  </head>
+  <body>
+    <div class="container">     
+      <div class="row titleBlock">
+        <div class="twelve columns">            
+          <h1>Technical Blog: Problem Solving</h1>
+        </div>        
+      </div>      
+      <div class="row">
+        <nav class="four columns hiddenMobile blogPage">
+          <ul id="navlist">
+            <li><a href="../index.html">HOME</a></li>            
+          </ul>
+        </nav>
+        <div class="four columns visibleMobile homeButton">
+          <a class="button" href="../index.html">Home</a>
+        </div>
+        <div class="eight columns content">
+          <h4>Tell your non-tech friend a story about a time you: </h4>
+          <h5>Got blocked on a simple problem</h5>
+          <p>
+            An exercise on this sprint we had to write code that would turn a circle green on right click and blue on a left click. When testing it would only work for turning green. I went over the code again and again and they seemed the same so couldn’t work out why one wasn’t working.
+          </p>
+          <p>
+            To solve the problem I put a console,log line in the function that was meant to turn it blue. This was so I could see if the function was even running, to narrow down if the problem was with my calling the function or the code inside the function. The function was running so I compared character by character the lines of the working green function to the blue function. I found I had a lowercase letter that should have been uppercase which fixed everything.
+          </p>
+          <p>
+            During this process I felt dumbfounded and frustrated by why it wasn’t working after repeatedly checking everything. Once I found what it was I couldn’t believe I missed such a simple thing even after repeatedly checking everything was correct. 
+          </p>
+          <p>
+            From this I learnt that small errors in code can easily hide when reading it with human eyes, we are taught to read looking at words rather than individual characters so small mistakes don’t stand out so easily. A computer reads character by character so it is important that everything is correct.
+          </p>
+          <h5>Solved a problem in an elegant way</h5>
+          <p>
+            A problem that has been annoying me with my website has been that every time I add a new blog page I have to update the navigation list on every previous blog page. This problem is getting worse each time I add a page as the number of files needing updating keeps growing. I didn’t like the way I was doing it but it worked and didn’t know a better way. 
+          </p>
+          <p>
+            After the exercises on this script I realised I could have a blank navigation list on every page and populate the list from a JavaScript file when the page loads. This would mean I only have to add the new link to one file each time I add a new page. To come up with a solution to how I was going to make this work I used pseudocode to write down the steps that would need to be taken by the code. I then started trying to implement it by adding one step and seeing if it worked before adding the next step. 
+          </p>
+          <p>
+            During this process I felt exited that I was finally going to overcome a problem that has been bugging me the last few weeks. I also felt challenged and a little stressed trying to make it work using stuff I had only just learnt about and wasn't that confident with on my own without instructions. 
+          </p>
+          <p>
+            From this I learnt that even if something seems complicated and you can't quite see how everything will tie together. By implementing small processes and testing them till you get it to work, a complicated process can become a series of simpler ones.
+          </p>
+          <h4>Reflect on how confident you feel using the problem solving techniques and process: 
+          </h4>
+          <ul>
+            <li>
+              <strong>Pseudocode</strong> is a great way to come up with the process your code will need to follow before writing it. I feel comfortable using this technique. 
+            </li>
+            <li>
+              <strong>Trying something</strong> would be my go to method of problem solving, I like to see how things work. Trying something is great because even if it doesn’t do what you want it to do, you get to see what it does do. 
+            </li>
+            <li>
+              <strong>Rubber ducky method</strong> is something I could try when I get stuck, voicing the problem out loud may help with clarity. 
+            </li>
+            <li>
+              <strong>Reading error messages</strong> I could possibly use an error message to give me a rough point in narrowing something down. I probably wouldn’t know what some error messages meant. 
+            </li>
+            <li>
+              <strong>Console.logging</strong> this is something I will use when problem solving to check what is happening at points in the programme. I think I can use this effectively. 
+            </li>
+            <li>
+              <strong>Googling</strong> will defiantly be googling my problems a lot. I have been finding googling problems to be a fast and effective solution to find out how to do something. 
+            </li>
+            <li>
+              <strong>Asking your peers for help</strong> I'd feel a bit awkward about doing this and would to prefer to find a solution myself. But if I get stuck on something and I'm not making any progress I would try ask for help. 
+            </li>
+            <li>
+              <strong>Asking coaches for help</strong> the same as asking peers I would use this only if I really needed it. 
+            </li>
+            <li>
+              <strong>Improving your process with reflection</strong> I will reflect on how the process went once I solve a problem, not completely confident on how good I will be at this. But it will be a good way to refine my problem-solving techniques. 
+            </li>            
+          </ul>
+        </div>
+      </div>
+
+    </div>  
+  </body>
+  <footer>Page developed by Ross Pinfold @ EDA</footer>
+</html>
