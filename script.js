@@ -31,7 +31,8 @@ function populateTech(folder, list) {
   addListItem(folder, 't2-html-css-dom-p1.html', 'HTML, CSS and DOM Part 1', technicalList)
   addListItem(folder, 't2-html-css-dom-p2.html', 'HTML, CSS and DOM Part Part 2', technicalList)
   addListItem(folder, 't3-design-to-web-blog.html', 'Design to Web', technicalList)
-  addListItem(folder, 't4-javascript-basics.html', 'JavaScript Basics', technicalList)  
+  addListItem(folder, 't4-javascript-basics.html', 'JavaScript Basics', technicalList) 
+  addListItem(folder, 't5-problem-solving.html', 'Problem Solving', technicalList) 
 }
 
 function addListItem (folder, file, title, list) {
