@@ -24,6 +24,7 @@ function populateCultural(folder, list) {
   addListItem(folder, 'c4-daily-mindfulness.html', 'Daily Mindfulnes', culturalList); 
   addListItem(folder, 'c5-self-confidence.html', 'Self-Confidence', culturalList);
   addListItem(folder, 'c6-control.html', 'Control', culturalList); 
+  addListItem(folder, 'c7-motivation.html', 'Motivation', culturalList); 
 }
 
 function populateTech(folder, list) {  
