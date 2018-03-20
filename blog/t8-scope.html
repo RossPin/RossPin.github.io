@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog: Scope</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <script src="../script.js"></script>
+  </head>
+  <body>
+    <div class="container">     
+      <div class="row titleBlock">
+        <div class="twelve columns">            
+          <h1>Technical Blog: Scope</h1>
+        </div>        
+      </div>      
+      <div class="row">
+        <nav class="four columns hiddenMobile blogPage">
+          <ul id="navlist">
+            <li><a href="../index.html">HOME</a></li>            
+          </ul>
+        </nav>
+        <div class="four columns visibleMobile homeButton">
+          <a class="button" href="../index.html">Home</a>
+        </div>
+        <div class="eight columns content">
+          <h4>What 'scope' is, and how it works in JavaScript.</h4>
+          <p>
+            Scope is used to define where variables are accessible from in a computer programme. In JavaScript there are two types of scope Global and Local.
+          </p>
+          <p>
+            <strong>Global scope</strong> variables are accessible from anywhere within the program. Global scope variables are defined outside of any function and can be read or changed from within any function. 
+          </p>
+          <p>
+            <strong>Local scope</strong> variables are only accessible within the function that they are defined in. In functions where there is a local variable with the same name as a global variable the local variable will be used. 
+          </p>
+          <p>
+            If a function is nested inside another function, the nested function has its own local scope plus the scope of the parent function. 
+          </p>
+        </div>
+      </div>
+
+    </div>  
+  </body>
+  <footer>Page developed by Ross Pinfold @ EDA</footer>
+</html>
