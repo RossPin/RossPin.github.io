@@ -36,6 +36,7 @@ function populateTech(folder, list) {
   addListItem(folder, 't4-javascript-basics.html', 'JavaScript Basics', technicalList) 
   addListItem(folder, 't5-problem-solving.html', 'Problem Solving', technicalList) 
   addListItem(folder, 't6-js-language.html', 'JavaScript Language', technicalList)
+  addListItem(folder, 't8-scope.html', 'Scope', technicalList)
 }
 
 function addListItem (folder, file, title, list) {
